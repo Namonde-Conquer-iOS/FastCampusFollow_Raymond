@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("ERROR: notification authorization request \(error.localizedDescription)")
             }
         }
-        
+
         return true
     }
 
@@ -45,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate: UNUserNotificationCenterDelegate {
     // background에서만 동작하는 알림을 foreground에서도 동작할 수 있도록 도와준다
     // This function will be called when the app receive notification
+    //Asks the delegate how to handle a notification that arrived while the app was running in the foreground.
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.badge, .banner, .list, .sound])
     }
