@@ -14,6 +14,7 @@
 		E67453D7287E3BD000720262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67453D6287E3BD000720262 /* Assets.xcassets */; };
 		E67453DA287E3BD000720262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67453D8287E3BD000720262 /* LaunchScreen.storyboard */; };
 		E67453E2287E3F7900720262 /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67453E1287E3F7900720262 /* WeatherInformation.swift */; };
+		E6E73831287FED9F00678965 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E73830287FED9F00678965 /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E67453D9287E3BD000720262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E67453DB287E3BD000720262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E67453E1287E3F7900720262 /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
+		E6E73830287FED9F00678965 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E67453CD287E3BCD00720262 /* AppDelegate.swift */,
 				E67453CF287E3BCD00720262 /* SceneDelegate.swift */,
 				E67453D1287E3BCD00720262 /* ViewController.swift */,
+				E6E73830287FED9F00678965 /* ErrorMessage.swift */,
 				E67453D3287E3BCD00720262 /* Main.storyboard */,
 				E67453E1287E3F7900720262 /* WeatherInformation.swift */,
 				E67453D6287E3BD000720262 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				E67453D2287E3BCD00720262 /* ViewController.swift in Sources */,
 				E67453E2287E3F7900720262 /* WeatherInformation.swift in Sources */,
+				E6E73831287FED9F00678965 /* ErrorMessage.swift in Sources */,
 				E67453CE287E3BCD00720262 /* AppDelegate.swift in Sources */,
 				E67453D0287E3BCD00720262 /* SceneDelegate.swift in Sources */,
 			);
